@@ -10,13 +10,27 @@ API é um acrônimo em ingles para **Application Programming Interface**,  em tr
 
 Vamos utilizar um exemplo simples e fora do mundo da computação para melhor exemplificar: imagine um restaurante no qual o cliente quer realizar pedidos, esse restaurante terá diversos outros clientes, na cozinha temos cozinheiro responsavel por gerenciar a cozinha e confecções dos pedidos. Não é viável que os clientes façam seus pedidos diretamente com o cozinheiro por motivos de higiente, segurança e gerenciamento, logo o restaurente possui um garçom que organiza os pedidos e repassa para o cozinheiro em uma formatação  que fique mais fácil para ele entender e atender aos pedidos. Os cliente não tem contato com o cozinheiro e vice-versa, todos eles entram em contato com o garçom da forma que é mellhor para cada um. 
 
-No exemplo anterior, os clientes são nossos client na arquitetura web, o cozinheiro e cozinha é nossa a aplicação da qual se quer fazer requisições e seu banco de dados, o garçom nossa API. 
+No exemplo anterior, temos os clientes sendo aqueles que fazem as requisições, o cozinheiro e cozinha são a aplicação da qual se quer usar as funcionalidades e seu banco de dados, respectivamente, e o garçom nossa API. 
 
-![Interação Cliente-API-Serivdor](https://github.com/Kelvin-de-Oliveira/tarefas-cs/blob/main/API.png)
 
-Em síntese, uma API é um cojunto de normas estabelecidas por uma aplicação para que outras aplicações possam acessar suas funcionalidades de forma segura, sem que seja necessário saber detalhes de implementação dessa aplicação. Ou seja, seu objetivo é possibilitar a comunicação segura entre diferentes aplicações/sistemas. 
 
-## **O que é REST? O que é RESTful** 
+![](https://github.com/Kelvin-de-Oliveira/tarefas-cs/blob/main/API.png)
 
-Agora que já temos uma noção do que é uma API, vamos discutir o conceito REST. 
+Em síntese, uma API é um cojunto de normas, rotinas e padrões estabelecidos por uma aplicação para que outras aplicações possam acessar suas funcionalidades de forma segura, sem que seja necessário saber detalhes de sua implementação. Ou seja, seu objetivo é possibilitar a comunicação segura entre diferentes aplicações/sistemas. 
 
+## **O que é uma REST API? O que é RESTful** 
+
+Agora que sabemos o que é e para o que serve uma API, podemos partir para o conceito de **REST API**. 
+Para começarmos, o que é **REST**? 
+
+REST é o acrônimo em ingles para **Representational State Transfer**, em tradução livre, Transferência de Estado Representacional, que é um conjunto de restrições (_constraints_) arquiteturais que definem como deve ocorrer a transferência de dados entre aplicações utilizando o protocolo HTTP. Assim, **RESTful API** é toda API que se adequa a essas restrições.
+
+### **6 Constraints para cumprir e ser RESTful!**
+Como discutido anteriormente, para ser RESTful a API precisa respeitar as restrições arquiteturais REST que são as seguintes: 
+
+1. **Uniform interface (interface Uniforme)**
+2. **Client-Server (Desacoplamento cliente-servidor)**
+3. **Stateless (Sem estado definido)**
+4. **Cacheable (armazenamento em cache)**
+5. **Layered System (Arquitetura de sistema em camadas)**
+6. **Code on demand (Código sob demanda)** - opcional
