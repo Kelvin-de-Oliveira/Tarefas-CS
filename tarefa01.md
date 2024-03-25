@@ -12,7 +12,7 @@ Vamos utilizar um exemplo simples e fora do mundo da computação para melhor ex
 
 No exemplo anterior, os clientes são nossos client na arquitetura web, o cozinheiro e cozinha é nossa a aplicação da qual se quer fazer requisições e seu banco de dados, o garçom nossa API. 
 
-![Interação Cliente-API-Serivdor]()
+![Interação Cliente-API-Serivdor](https://github.com/Kelvin-de-Oliveira/tarefas-cs/blob/main/API.png)
 
 Em síntese, uma API é um cojunto de normas estabelecidas por uma aplicação para que outras aplicações possam acessar suas funcionalidades de forma segura, sem que seja necessário saber detalhes de implementação dessa aplicação. Ou seja, seu objetivo é possibilitar a comunicação segura entre diferentes aplicações/sistemas. 
 
