@@ -1,8 +1,8 @@
 # **REST API - Principais conceitos e características**
 
-Neste pequeno artigo, eu tenho o intuito de trazer os principais conceitos e característcas que envolvem o tema Rest API ou API Rest. 
+Neste pequeno artigo, vou tentar trazer de forma resumida e simples os principais conceitos  e características acerca do tema REST API. 
 
-## **O que é uma API?**
+## **O que é uma API?** 🙇
 
 Para melhor compreensão do tópico discutido, vamos primeiro definir resumidamente o que é uma **API**.
 
@@ -18,7 +18,7 @@ No exemplo anterior, temos os clientes sendo aqueles que fazem as requisições,
 
 Em síntese, uma API é um cojunto de normas, rotinas e padrões estabelecidos por uma aplicação para que outras aplicações possam acessar suas funcionalidades de forma segura, sem que seja necessário saber detalhes de sua implementação. Ou seja, seu objetivo é possibilitar a comunicação segura entre diferentes aplicações/sistemas. 
 
-## **O que é uma REST API? O que é RESTful** 
+## **O que é uma REST API? O que é RESTful?**  👀
 
 Agora que sabemos o que é e para o que serve uma API, podemos partir para o conceito de **REST API**. 
 Para começarmos, o que é **REST**? 
@@ -39,5 +39,15 @@ Como discutido anteriormente, para ser RESTful a API precisa respeitar as restri
 
 5. **Layered System (Arquitetura de sistema em camadas)**: As restrições REST permitem o uso de uma arquitetura de sistema em camadas, onde as requisições e respostas passam por diferentes camadas até chegarem ao cliente ou servidor final. Possivelmente, haverá inúmeros intermediários. Nem o cliente nem o servidor devem estar cientes da complexidade ou dos passos necessários para que a resposta/requisição chegue até eles; eles não devem ser capazes de distinguir se estão conectados a um aplicativo final ou a um intermediário.
 
-6. **Code on demand (Código sob demanda)** - opcional: Essa _constraint_ é opcional. Portanto, se sua API segue as 5 restrições anteriores, sua API já é RESTful. No entanto, caso seja necessário, o seu aplicativo servidor pode enviar código executável como resposta para ser executado no aplicativo cliente e o código será executado apenas sob demanda. 
+6. **Code on demand (Código sob demanda) - opcional**: Essa _constraint_ é opcional. Portanto, se sua API segue as 5 restrições anteriores, sua API já é RESTful. No entanto, caso seja necessário, o seu aplicativo servidor pode enviar código executável como resposta para ser executado no aplicativo cliente e o código será executado apenas sob demanda. 
+
+
+Pronto! Agora sabemos o que é uma API, uma REST API (ou API REST) e o que é ser RESTful. 😎 
+
+
+**Referências Bibliográficas**: 
+* GUPTA, Lokesh. REST API Tutorial. **restfulapi**, 2023. Disponível em:  https://restfulapi.net/rest-architectural-constraints. Acesso em: 25/03/2024
+* O que é uma API de REST?. **IBM**. Disponível em: https://www.ibm.com/br-pt/topics/rest-apis. Acesso em: 25/03/2024
+* ThehungryBrain. REST API Architectural Constraints. **geeksforgeeks**, 2023. Disponível em: https://www.geeksforgeeks.org/rest-api-architectural-constraints. Acesso em: 25/03/2024
+
 
