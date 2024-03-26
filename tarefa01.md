@@ -6,9 +6,9 @@ Neste pequeno artigo, vou tentar trazer de forma resumida e simples os principai
 
 Para melhor compreensão do tópico discutido, vamos primeiro definir resumidamente o que é uma **API**.
 
-API é um acrônimo em ingles para **Application Programming Interface**,  em tradução livre, Interface de Programação de Aplicações. Um definição simples e resumida seria: uma interface que permite a comunicação entre aplicações. 
+API é um acrônimo em inglês para **Application Programming Interface**,  em tradução livre, Interface de Programação de Aplicações. Um definição simples e resumida seria: uma interface que permite a comunicação entre aplicações. 
 
-Vamos utilizar um exemplo simples e fora do mundo da computação para melhor exemplificar: imagine um restaurante no qual o cliente quer realizar pedidos, esse restaurante terá diversos outros clientes, na cozinha temos cozinheiro responsavel por gerenciar a cozinha e confecções dos pedidos. Não é viável que os clientes façam seus pedidos diretamente com o cozinheiro por motivos de higiente, segurança e gerenciamento, logo o restaurente possui um garçom que organiza os pedidos e repassa para o cozinheiro em uma formatação  que fique mais fácil para ele entender e atender aos pedidos. Os cliente não tem contato com o cozinheiro e vice-versa, todos eles entram em contato com o garçom da forma que é mellhor para cada um. 
+Vamos utilizar um exemplo simples e fora do mundo da computação para melhor exemplificar: imagine um restaurante no qual o cliente quer realizar pedidos, esse restaurante terá diversos outros clientes, na cozinha temos cozinheiro responsável por gerenciar a cozinha e pela confecções dos pedidos. Não é viável que os clientes façam seus pedidos diretamente com o cozinheiro por motivos de higiente, segurança e gerenciamento, logo o restaurente possui um garçom que organiza os pedidos e repassa para o cozinheiro em uma formatação  que fique mais fácil para ele entender e atender aos pedidos. Os clientes não tem contato com o cozinheiro e vice-versa, todos eles entram em contato com o garçom da forma que é mellhor para cada um. 
 
 No exemplo anterior, temos os clientes sendo aqueles que fazem as requisições, o cozinheiro e cozinha são a aplicação da qual se quer usar as funcionalidades e seu banco de dados, respectivamente, e o garçom nossa API. 
 
@@ -23,7 +23,7 @@ Em síntese, uma API é um cojunto de normas, rotinas e padrões estabelecidos p
 Agora que sabemos o que é e para o que serve uma API, podemos partir para o conceito de **REST API**. 
 Para começarmos, o que é **REST**? 
 
-REST é o acrônimo em ingles para **Representational State Transfer**, em tradução livre, Transferência de Estado Representacional, que é um conjunto de restrições (_constraints_) arquiteturais que definem como deve ocorrer a transferência de dados entre aplicações utilizando o protocolo HTTP. Assim, **RESTful API** é toda API que se adequa a essas restrições.
+REST é o acrônimo em inglês para **Representational State Transfer**, em tradução livre, Transferência de Estado Representacional, que é um conjunto de restrições (_constraints_) arquiteturais que definem como deve ocorrer a transferência de dados entre aplicações utilizando o protocolo HTTP. Assim, **RESTful API** é toda API que se adequa a essas restrições.
 
 ### **6 _Constraints_ para cumprir e ser RESTful! 😄**
 Como discutido anteriormente, para ser RESTful a API precisa respeitar as restrições arquiteturais REST, que são as seguintes: 
