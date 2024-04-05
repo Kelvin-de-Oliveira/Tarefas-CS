@@ -50,4 +50,6 @@ Pronto! Agora sabemos o que é uma API, uma REST API (ou API REST) e o que é se
 * O que é uma API de REST?. **IBM**. Disponível em: https://www.ibm.com/br-pt/topics/rest-apis. Acesso em: 25/03/2024
 * ThehungryBrain. REST API Architectural Constraints. **geeksforgeeks**, 2023. Disponível em: https://www.geeksforgeeks.org/rest-api-architectural-constraints. Acesso em: 25/03/2024
 
+teste
+
 
