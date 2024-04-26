@@ -7,7 +7,6 @@ class ContaBancaria {
 
     public void depositar(double valor) {
         this.saldo += valor;
-        System.out.println("Depósito de " + valor + " realizado com sucesso.");
     }
 
     public void sacar(double valor) throws SaldoInsuficienteException {
@@ -15,7 +14,6 @@ class ContaBancaria {
             throw new SaldoInsuficienteException("Saldo insuficiente para realizar o saque.");
         } else {
             this.saldo -= valor;
-            System.out.println("Saque de " + valor + " realizado com sucesso.");
         }
     }
 
