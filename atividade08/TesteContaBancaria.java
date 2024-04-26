@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// Classe de teste (executável)
 public class TesteContaBancaria {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
