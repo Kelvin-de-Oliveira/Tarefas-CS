@@ -1,5 +1,5 @@
 # Porque a qualidade de código é importante?
-### Breve resumo e comentário sobre o texto. Disponível em:`https://kodus.io/porque-a-qualidade-de-codigo-e-importante`
+### Breve resumo e comentário sobre o texto. É possível acessá-lo em:`https://kodus.io/porque-a-qualidade-de-codigo-e-importante`
 
 O artigo discute a importância de escrever um código com qualidade, indica ferramentas para padronizar e melhorar a qualidade do código, e dá dicas de como aprimorá-lo. 
 
