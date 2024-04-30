@@ -14,7 +14,7 @@ No exemplo anterior, temos os clientes sendo aqueles que fazem as requisições,
 
 
 
-![](https://github.com/Kelvin-de-Oliveira/tarefas-cs/blob/main/API.png)
+![](https://github.com/Kelvin-de-Oliveira/tarefas-cs/blob/main/atividade01/API.png)
 
 Em síntese, uma API é um cojunto de normas, rotinas e padrões estabelecidos por uma aplicação para que outras aplicações possam acessar suas funcionalidades de forma segura, sem que seja necessário saber detalhes de sua implementação. Ou seja, seu objetivo é possibilitar a comunicação segura entre diferentes aplicações/sistemas. 
 
