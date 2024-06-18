@@ -8,7 +8,7 @@ public class Validacao {
     /*
      * Professor, eu entendi, pelo enunciado, que para o login eu precisava apenas
      * permitir
-     * letras, números e caracteres especiais, mas não ser uma obrigação
+     * letras, números e caracteres especiais, mas não ser uma restriçao
      */
 
     // expressão para a senha
